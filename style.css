@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.box {
+    background: radial-gradient( #9ebaf37a, #2a2e4b8a);
+    border: #1f2238 1px solid;
+    cursor: pointer;
+}
+
+.boxHover {
+    background-color: black;
+}
+
+label {
+    font-size: larger;
+    font-weight: 900;
+}
+input {
+    border-radius: 10%;
+    width: 75px;
+    background-color: azure;
+}
+.btn {
+    justify-self: flex-end;
+    padding: 2px 18px 2px 18px;
+    border-radius: 20%;
+    color:aliceblue;
+    background-color: #787daa96;
+    border: none;
+    box-shadow: 5px 5px 10px #60739b,
+    -5px -5px 10px #9ebaf3;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #1f2238;
+}
+
+.user-input {
+    display: flex;
+    gap: 18px;
+}
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.grid {   
+    display: flex;
+    width: 650px; 
+    height: auto;   
+} 
+
+.container {   
+    flex: 1;
+    background: linear-gradient(to right bottom, #2a2e4b, #9ebaf3);
+}
+
+.footer {
+    text-align: center;
+    background-color:#9ebaf3;
+    font-variant-caps: all-petite-caps;
+}
